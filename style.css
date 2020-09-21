@@ -1,0 +1,214 @@
+* {
+    box-sizing: border-box
+}
+
+body {
+    font-family: arial
+}
+
+h1 {
+    color: brown;
+    background-color: beige;
+    margin: 40px auto;
+    text-align: center;
+    padding: 10px;
+    width: 975px;
+    border: 2px solid #ccc;
+    border-radius: 20px
+}
+
+.container {
+    width: 975px;
+    background-color: beige;
+    margin: 10px auto;
+    padding: 15px;
+    border: 2px solid #ccc;
+    border-radius: 20px
+}
+
+.container .add-task {
+    position: relative;
+    background-color: burlywood;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.container .add-task input {
+    display: inline-block;
+    width: calc(100% - 45px);
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    color: #fff;
+    background-color: brown;
+    font-size: 22px;
+    font-weight: bold
+}
+
+.container .add-task input:focus {
+    outline: none;
+}
+
+::placeholder {
+	color: #fff;
+	opacity: .6;
+}
+
+
+.container .add-task span {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    font-size: 60px;
+    font-weight: bold;
+    color: brown;
+    position: absolute;
+    right: 30px;
+    top: 18px;
+    padding: 5px;
+    border: 2px solid #ccc;
+    transition: transform .4s;
+    cursor: pointer
+}
+
+.container .add-task span:hover {
+    transform: rotate(90deg);
+}
+
+.container .tasks {
+    margin-top: 15px;
+    border-radius: 20px;
+}
+
+.container .tasks > span {
+    display: block;
+    background-color: burlywood;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+    overflow: hidden;
+    
+}
+
+.container .tasks > span:not(:last-child) { /* :not(:nth-child)*/
+    margin-bottom: 15px;
+}
+
+.container .tasks .task-box .delete,
+.container .tasks .task-box .finish {
+    float: right;
+    background-color: brown;
+    color: #fff;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    cursor: pointer;
+    user-select: none;
+    margin-left: 5px
+}
+
+.container .tasks  .task-box .delete:hover,
+.container .tasks  .task-box .finish:hover {
+    background-color: #fff;
+    color:brown
+}
+
+.container .tasks .task-box.finished {
+    text-decoration: line-through;
+    background-color: dimgray;
+    color: #fff;
+    outline: none;
+}
+
+.tasks-stats {
+    width: 985px;
+    background-color: beige;
+    margin: auto;
+    padding: 12px;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    overflow: hidden
+    
+}
+
+.tasks-stats .counter {
+    float: left;
+    width: 35%;
+    margin-left: 10px
+}
+
+.tasks-stats .completed {
+    float: right;
+    width: 35%;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.tasks-stats .counter, .tasks-stats .completed {
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+.tasks-stats .counter span, .tasks-stats .completed span {
+    background-color: brown;
+    padding: 5px 10px;
+    text-align: center;
+    color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 50%
+}
+
+.tasks-stats .all {
+    text-align: center;
+}
+
+.tasks-stats .all .delete-all,
+.tasks-stats .all .finish-all {
+    background-color: brown;
+    color: #fff;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    cursor: pointer;
+    user-select: none;
+    margin-left: 5px
+    
+}
+
+.tasks-stats .all .delete-all:hover,
+.tasks-stats .all .finish-all:hover {
+    background-color: #fff;
+    color: brown
+}
+
+footer {
+	margin: 100px auto;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	color: #ccc;
+	padding: 5px
+}
+
+footer p {
+    margin-top: 8px;
+}
+
+footer p span {
+    background-color: black;
+    padding: 2px;
+    color: #fff;
+    border-radius: 5px;
+}
