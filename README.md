@@ -20,7 +20,7 @@ Just Modern Browser like "Chrome" and a Code Editor for Deployment and Develop.
 
 ## Built With
 
-* HML5
+* HTML5
 * CSS3
 * Pure JS (No Plugins)
 
