@@ -1,4 +1,4 @@
-# todo-tasks  
+# TODO Tasks  
 [![Netlify Status](https://api.netlify.com/api/v1/badges/4912510c-1195-4cb3-979d-2bfb51297e3d/deploy-status)](https://app.netlify.com/sites/todotasks14/deploys)  
 
 Todo Tasks is an Task List App. let you organize and add your Tasks in a Smart List.  
