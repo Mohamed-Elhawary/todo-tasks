@@ -10,12 +10,12 @@ You can view the App from [here](https://todotasks14.netlify.app/)
 
 ## Demo  
 
-![todo-tasks-add-your-daily-tasks](https://user-images.githubusercontent.com/69651552/93807226-9ec96680-fc4a-11ea-939d-98a648517a6b.gif)  
+![Demo](https://user-images.githubusercontent.com/69651552/93807226-9ec96680-fc4a-11ea-939d-98a648517a6b.gif)  
 
-## Built With
+## Built with
 
-* HTML5
-* CSS3
+* HTML
+* CSS
 * Vanilla JS
 
 
@@ -26,7 +26,7 @@ You can view the App from [here](https://todotasks14.netlify.app/)
 ## Contact me through my social accounts
 
 * Email: mohamed.k.elhawary@gmail.com
-* [LinkedIn](https://www.linkedin.com/in/mohamed-elhawary14/)
+* [Linkedin](https://www.linkedin.com/in/mohamed-elhawary14/)
 * [Github](https://github.com/Mohamed-Elhawary)  
 * [Behance](https://www.behance.net/mohamed-elhawary14)
 * [Codepen](https://codepen.io/Mohamed-ElHawary) 
